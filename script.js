@@ -495,8 +495,24 @@ document.addEventListener('DOMContentLoaded', () => {
             link: 'https://royalhelmet.com.vn/',
             tags: 'e-commerce'
         },
-        {
+         {
             id: 2,
+            title: { vi: 'Website B2B nón bảo hiểm', en: 'B2B Helmet Website' },
+            description: { vi: 'Website giới thiệu dịch vụ công ty và bán hàng.', en: 'Company showcase and sales website for B2B helmet business.' },
+            image: `image/demo/b2b.png`,
+            link: 'https://mubaohiemasia.com/',
+            tags: 'e-commerce branding'
+        },
+        {
+            id: 3,
+            title: { vi: 'Website AsiaHelmet', en: 'AsiaHelmet Website' },
+            description: { vi: 'Phát triển website bán hàng – đầy đủ chức năng mua hàng và quản lý đơn hàng.', en: 'Built an e-commerce website with full purchase and order management.' },
+            image: `image/demo/asia.png`,
+            link: 'https://asiahelmet.com/',
+            tags: 'e-commerce branding'
+        },
+        {
+            id: 4,
             title: { vi: 'Website máy móc', en: 'Machine Equipment Website' },
             description: { vi: 'Website bán hàng – hỗ trợ thanh toán và quản lý đơn hàng.', en: 'E-commerce site with payment support and order management.' },
             image: `image/demo/maymoc.png`,
@@ -504,7 +520,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'e-commerce'
         },
         {
-            id: 3,
+            id: 5,
             title: { vi: 'Website thực phẩm', en: 'Food Product Website' },
             description: { vi: 'Website bán hàng – đầy đủ chức năng mua hàng và thanh toán.', en: 'Online store with complete purchase and checkout features.' },
             image: `image/demo/thucpham.png`,
@@ -512,30 +528,14 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'e-commerce'
         },
         {
-            id: 4,
+            id: 6,
             title: { vi: 'Website gỗ nhựa', en: 'Wood-Plastic Website' },
             description: { vi: 'Website bán hàng – tối ưu trải nghiệm mua sắm và thanh toán.', en: 'Sales website optimized for shopping experience and checkout.' },
             image: `image/demo/gonhua.png`,
             link: 'https://pacons.com.vn/',
             tags: 'e-commerce'
         },
-        {
-            id: 5,
-            title: { vi: 'Website bánh mì', en: 'Bakery Website' },
-            description: { vi: 'Website bán hàng đơn giản – hỗ trợ mua hàng và xử lý đơn hàng.', en: 'Simple e-commerce site supporting purchases and order handling.' },
-            image: `image/demo/banhmi.png`,
-            link: 'https://thiemhung.com/',
-            tags: 'e-commerce'
-        },
-        {
-            id: 6,
-            title: { vi: 'Website cơ điện', en: 'Electrical & Mechanical Website' },
-            description: { vi: 'Website bán hàng kết hợp giới thiệu doanh nghiệp – hỗ trợ đặt hàng.', en: 'E-commerce and business showcase site with order support.' },
-            image: `image/demo/codien.png`,
-            link: 'https://satavina.vn/',
-            tags: 'e-commerce branding'
-        },
-        {
+         {
             id: 7,
             title: { vi: 'Website spa', en: 'Spa Website' },
             description: { vi: 'Website giới thiệu spa – hỗ trợ đặt lịch và tìm kiếm dịch vụ.', en: 'Spa showcase website with booking and service search.' },
@@ -545,6 +545,14 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 8,
+            title: { vi: 'Website cơ điện', en: 'Electrical & Mechanical Website' },
+            description: { vi: 'Website bán hàng kết hợp giới thiệu doanh nghiệp – hỗ trợ đặt hàng.', en: 'E-commerce and business showcase site with order support.' },
+            image: `image/demo/codien.png`,
+            link: 'https://satavina.vn/',
+            tags: 'e-commerce branding'
+        },
+        {
+            id: 9,
             title: { vi: 'Website cơ điện v2', en: 'Electrical & Mechanical Site v2' },
             description: { vi: 'Website giới thiệu doanh nghiệp – tập trung vào thương hiệu.', en: 'Business introduction site focused on branding.' },
             image: `image/demo/codien-v2.png`,
@@ -552,7 +560,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'branding'
         },
         {
-            id: 9,
+            id: 10,
             title: { vi: 'Website cách nhiệt', en: 'Insulation Product Website' },
             description: { vi: 'Website quảng bá thương hiệu sản phẩm cách nhiệt.', en: 'Brand promotion website for insulation products.' },
             image: `image/demo/cachnhiet.png`,
@@ -560,7 +568,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'branding'
         },
         {
-            id: 10,
+            id: 11,
             title: { vi: 'Website du lịch', en: 'Travel Company Website' },
             description: { vi: 'Website giới thiệu dịch vụ công ty du lịch hỗ trợ book dịch vụ.', en: 'Travel company site with service booking support.' },
             image: `image/demo/dulich.png`,
@@ -568,7 +576,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'branding'
         },
         {
-            id: 11,
+            id: 12,
             title: { vi: 'Website kiến trúc', en: 'Architecture Website' },
             description: { vi: 'Website giới thiệu dịch vụ công ty kiến trúc.', en: 'Architecture firm website with service showcase.' },
             image: `image/demo/kientruc.png`,
@@ -576,7 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'branding'
         },
         {
-            id: 12,
+            id: 13,
             title: { vi: 'Website trường học', en: 'School Website' },
             description: { vi: 'Website giới thiệu dịch vụ trường học và đội ngũ giáo viên.', en: 'School introduction website presenting services and teaching staff.' },
             image: `image/demo/truonghoc.png`,
@@ -584,63 +592,15 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'branding'
         },
         {
-            id: 13,
-            title: { vi: 'Website B2B nón bảo hiểm', en: 'B2B Helmet Website' },
-            description: { vi: 'Website giới thiệu dịch vụ công ty và bán hàng.', en: 'Company showcase and sales website for B2B helmet business.' },
-            image: `image/demo/b2b.png`,
-            link: 'https://mubaohiemasia.com/',
-            tags: 'e-commerce branding'
-        },
-        {
             id: 14,
-            title: { vi: 'Website AsiaHelmet', en: 'AsiaHelmet Website' },
-            description: { vi: 'Phát triển website bán hàng – đầy đủ chức năng mua hàng và quản lý đơn hàng.', en: 'Built an e-commerce website with full purchase and order management.' },
-            image: `image/demo/asia.png`,
-            link: 'https://asiahelmet.com/',
-            tags: 'e-commerce branding'
-        },
-        {
-            id: 15,
             title: { vi: 'Website tin tức', en: 'News Website' },
             description: { vi: 'Website đăng bài viết về làm đẹp', en: 'News website posting beauty articles.' },
             image: `image/demo/tintuc.png`,
             link: 'https://tintuc2.layoutwebdemo.com/',
             tags: 'blog'
         },
-        {
-            id: 16,
-            title: { vi: 'Website chợ thuốc sỉ', en: 'Wholesale Pharmacy Website' },
-            description: { vi: 'Website bán sản phẩm thuốc đầy đủ chức năng mua hàng quản lý đơn hàng đăng nhập xem giá sản phẩm', en: 'Online pharmacy with full purchase, order management, login, and price viewing.' },
-            image: `image/demo/chothuocsi.png`,
-            link: 'https://chothuocsi.layoutwebdemo.com/',
-            tags: 'e-commerce'
-        },
-        {
-            id: 17,
-            title: `Website shop đồ trẻ em`,
-            description: `Website bán sản phẩm đồ trẻ em đầy đủ chức năng mua hàng quản lý đơn hàng`,
-            image: `image/demo/shopdotreem.png`,
-            link: 'https://www.tuticare.com/',
-            tags: 'e-commerce'
-        },
          {
-            id: 18,
-            title: { vi: 'Website bán yến sâm', en: 'Ginseng Bird’s Nest Website' },
-            description: { vi: 'Website bán sản phẩm yến sâm đầy đủ chức năng mua hàng quản lý đơn hàng', en: 'E-commerce site selling ginseng bird’s nest with full order management.' },
-            image: `image/demo/yensam.png`,
-            link: 'https://nhansamviethan.com/',
-            tags: 'e-commerce'
-        },
-         {
-            id: 19,
-            title: { vi: 'Website kiến trúc', en: 'Architecture Blog Website' },
-            description: { vi: 'Website chia sẽ thông tin kiến thức về dịch vụ thi công nội thất', en: 'Blog sharing knowledge about interior construction services.' },
-            image: `image/demo/kientrucxinh.png`,
-            link: 'http://kientrucxinh.layoutwebdemo.com/',
-            tags: 'blog'
-        },
-         {
-            id: 20,
+            id: 15,
             title: { vi: 'Website review món ăn', en: 'Food Review Website' },
             description: { vi: 'Website chia sẽ thông tin kiến thức về các địa điểm ăn uống', en: 'Website sharing information and reviews about dining places.' },
             image: `image/demo/reviewmonngon.png`,
@@ -648,7 +608,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'blog'
         },
         {
-            id: 21,
+            id: 16,
             title: { vi: 'Website dịch vụ SEO', en: 'SEO Services Website' },
             description: { vi: 'Website giới thiệu và cung cấp dịch vụ SEO', en: 'Website presenting and offering SEO services.' },
             image: `image/demo/tangdiemdomain.png`,
@@ -656,13 +616,53 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: 'e-commerce blog'
         },
         {
-            id: 22,
+            id: 17,
             title: { vi: 'Website thuê xe', en: 'Car Rental Website' },
             description: { vi: 'Website giới thiệu và cung cấp dịch vụ thuê xe', en: 'Website showcasing and providing car rental services.' },
             image: `image/demo/asialimousine.png`,
             link: 'https://asialimousine.vn/',
             tags: 'e-commerce blog'
         },
+        {
+            id: 18,
+            title: { vi: 'Website bánh mì', en: 'Bakery Website' },
+            description: { vi: 'Website bán hàng đơn giản – hỗ trợ mua hàng và xử lý đơn hàng.', en: 'Simple e-commerce site supporting purchases and order handling.' },
+            image: `image/demo/banhmi.png`,
+            link: 'https://thiemhung.com/',
+            tags: 'e-commerce'
+        },        
+        {
+            id: 19,
+            title: { vi: 'Website chợ thuốc sỉ', en: 'Wholesale Pharmacy Website' },
+            description: { vi: 'Website bán sản phẩm thuốc đầy đủ chức năng mua hàng quản lý đơn hàng đăng nhập xem giá sản phẩm', en: 'Online pharmacy with full purchase, order management, login, and price viewing.' },
+            image: `image/demo/chothuocsi.png`,
+            link: 'https://chothuocsi.layoutwebdemo.com/',
+            tags: 'e-commerce'
+        },
+        {
+            id: 20,
+            title: `Website shop đồ trẻ em`,
+            description: `Website bán sản phẩm đồ trẻ em đầy đủ chức năng mua hàng quản lý đơn hàng`,
+            image: `image/demo/shopdotreem.png`,
+            link: 'https://www.tuticare.com/',
+            tags: 'e-commerce'
+        },
+         {
+            id: 21,
+            title: { vi: 'Website bán yến sâm', en: 'Ginseng Bird’s Nest Website' },
+            description: { vi: 'Website bán sản phẩm yến sâm đầy đủ chức năng mua hàng quản lý đơn hàng', en: 'E-commerce site selling ginseng bird’s nest with full order management.' },
+            image: `image/demo/yensam.png`,
+            link: 'https://nhansamviethan.com/',
+            tags: 'e-commerce'
+        },
+         {
+            id: 22,
+            title: { vi: 'Website kiến trúc', en: 'Architecture Blog Website' },
+            description: { vi: 'Website chia sẽ thông tin kiến thức về dịch vụ thi công nội thất', en: 'Blog sharing knowledge about interior construction services.' },
+            image: `image/demo/kientrucxinh.png`,
+            link: 'http://kientrucxinh.layoutwebdemo.com/',
+            tags: 'blog'
+        },        
     ];
 
 
