@@ -508,7 +508,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website thực phẩm', en: 'Food Product Website' },
             description: { vi: 'Website bán hàng – đầy đủ chức năng mua hàng và thanh toán.', en: 'Online store with complete purchase and checkout features.' },
             image: `image/demo/thucpham.png`,
-            link: 'https://food16.layoutwebdemo.com/',
+            link: 'https://hn.sibafood.vn/',
             tags: 'e-commerce'
         },
         {
@@ -516,7 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website gỗ nhựa', en: 'Wood-Plastic Website' },
             description: { vi: 'Website bán hàng – tối ưu trải nghiệm mua sắm và thanh toán.', en: 'Sales website optimized for shopping experience and checkout.' },
             image: `image/demo/gonhua.png`,
-            link: 'https://gonhua.layoutwebdemo.com/',
+            link: 'https://pacons.com.vn/',
             tags: 'e-commerce'
         },
         {
@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website bánh mì', en: 'Bakery Website' },
             description: { vi: 'Website bán hàng đơn giản – hỗ trợ mua hàng và xử lý đơn hàng.', en: 'Simple e-commerce site supporting purchases and order handling.' },
             image: `image/demo/banhmi.png`,
-            link: 'https://food6.layoutwebdemo.com/',
+            link: 'https://thiemhung.com/',
             tags: 'e-commerce'
         },
         {
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website spa', en: 'Spa Website' },
             description: { vi: 'Website giới thiệu spa – hỗ trợ đặt lịch và tìm kiếm dịch vụ.', en: 'Spa showcase website with booking and service search.' },
             image: `image/demo/spa.png`,
-            link: 'https://spa2.layoutwebdemo.com/',
+            link: 'https://seoulspa.vn/',
             tags: 'branding'
         },
         {
@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website du lịch', en: 'Travel Company Website' },
             description: { vi: 'Website giới thiệu dịch vụ công ty du lịch hỗ trợ book dịch vụ.', en: 'Travel company site with service booking support.' },
             image: `image/demo/dulich.png`,
-            link: 'https://dulich8.layoutwebdemo.com/',
+            link: 'https://aldentravel.com/',
             tags: 'branding'
         },
         {
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website kiến trúc', en: 'Architecture Website' },
             description: { vi: 'Website giới thiệu dịch vụ công ty kiến trúc.', en: 'Architecture firm website with service showcase.' },
             image: `image/demo/kientruc.png`,
-            link: 'https://kientruc6.layoutwebdemo.com/',
+            link: 'https://datthu.vn/',
             tags: 'branding'
         },
         {
@@ -580,7 +580,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website trường học', en: 'School Website' },
             description: { vi: 'Website giới thiệu dịch vụ trường học và đội ngũ giáo viên.', en: 'School introduction website presenting services and teaching staff.' },
             image: `image/demo/truonghoc.png`,
-            link: 'https://school1.layoutwebdemo.com/',
+            link: 'https://littleems.edu.vn/',
             tags: 'branding'
         },
         {
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: `Website shop đồ trẻ em`,
             description: `Website bán sản phẩm đồ trẻ em đầy đủ chức năng mua hàng quản lý đơn hàng`,
             image: `image/demo/shopdotreem.png`,
-            link: 'https://shopdotreem.layoutwebdemo.com/',
+            link: 'https://www.tuticare.com/',
             tags: 'e-commerce'
         },
          {
@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: { vi: 'Website bán yến sâm', en: 'Ginseng Bird’s Nest Website' },
             description: { vi: 'Website bán sản phẩm yến sâm đầy đủ chức năng mua hàng quản lý đơn hàng', en: 'E-commerce site selling ginseng bird’s nest with full order management.' },
             image: `image/demo/yensam.png`,
-            link: 'https://yensam.layoutwebdemo.com/',
+            link: 'https://nhansamviethan.com/',
             tags: 'e-commerce'
         },
          {
